@@ -1,0 +1,7 @@
+<input placeholder="Eintrag hinzufügen" type="text"/>
+<button (click)="addToDo(item)">Hinzufügen</button>
+<div class="data">
+  <ul>
+    <li *ngFor="let item of toDoArray">{{item}}</li>
+  </ul>
+</div>
